@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Hidden Audio (Plays "22" by Taylor Swift) -->
+    <audio id="birthdaySong" loop>
+        <source src="22.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- Centered Birthday Text -->
+    <div class="birthday-text">HAPPY 22nd BIRTHDAY BABBY 🎉💖</div>
+
+    <!-- Clickable Present (Updated to "present.png") -->
+    <img src="present.png" alt="Gift Box" class="present" onclick="showMessage()">
+    
+    <!-- Hidden Message -->
+    <div id="message" class="hidden-message">
+        <p>HAPPY 22ND BDAY BABBY 🎊❤️, congratulations on surviving another year on this earth and in uni heh. You are now kind of a fossil hehe. I love you very very muchhh and i hope you have a good birthday and all your wishes come true :D. I think i forgor how to write messages alr, must the autism creeping in. Im genuinely very thankful to have u in my life and im sure many others feel the same too heh. stay happy no cry. <br><br> didnt know HTML module would actually become useful heh </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
