@@ -23,7 +23,7 @@ body {
     padding: 15px 20px;
     border-radius: 10px;
     position: absolute;
-    top: 30%; /* Lowered the text */
+    top: 15%; /* Lowered the text */
 }
 
 /* Clickable Present (Moved Up Significantly) */
@@ -32,7 +32,7 @@ body {
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     position: absolute;
-    top: 35%; /* Moved up significantly */
+    top: 30%; /* Moved up significantly */
 }
 
 .present:hover {
